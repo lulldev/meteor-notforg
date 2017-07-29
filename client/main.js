@@ -1,3 +1,10 @@
+// Import Tether.js - Bootstrap tooltip requires Tether.
+// We also add 'global.Tether' as a workaround for Meteor.
+import tether from 'tether';
+global.Tether = tether;
+// Import Bootstrap js npm module.
+bootstrap = require('bootstrap');
+
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
 
