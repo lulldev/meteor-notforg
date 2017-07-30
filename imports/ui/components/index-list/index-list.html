@@ -1,0 +1,9 @@
+<template name="IndexList_component">
+  {{#if state.isLoaded}}
+    <ul class="list-group">
+      {{#each lists}}
+        <li class="list-group-item" data-id="{{id}}">{{title}}</li>
+      {{/each}}
+    </ul>
+  {{/if}}
+</template>
