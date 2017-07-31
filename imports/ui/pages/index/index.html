@@ -1,8 +1,19 @@
 <template name="Index_page">
   <h1>This is index page!</h1>
   <p>Test about index text</p>
-  {{#linkTo '/test'}}
-    Go to test!
-  {{/linkTo}}
+  <ul>
+    <li>
+      {{#linkTo '/test'}}
+        Go to test!
+      {{/linkTo}}
+    </li>
+    <li>
+      {{#linkTo '/login'}}
+        Test login
+      {{/linkTo}}
+    </li>
+  </ul>
+  <br>
+  <strong>Test component</strong>
   {{> IndexList_component}}
 </template>

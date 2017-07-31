@@ -8,6 +8,7 @@ import '/imports/ui/layouts';
 // Import Pages
 import '/imports/ui/pages/index/index.js';
 import '/imports/ui/pages/test/test.js';
+import '/imports/ui/pages/login/login.js';
 
 // Home route
 FlowRouter.route('/', {
@@ -21,5 +22,12 @@ FlowRouter.route('/test', {
   name: 'test',
   action() {
     BlazeLayout.render('Public_layout', { main: 'Test_page'});
+  }
+});
+
+FlowRouter.route('/login', {
+  name: 'login',
+  action() {
+    BlazeLayout.render('Public_layout', { main: 'Login_page'});
   }
 });

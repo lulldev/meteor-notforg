@@ -27,3 +27,4 @@ useraccounts:flow-routing
 accounts-password
 fourseven:scss
 seba:minifiers-autoprefixer
+accounts-ui
