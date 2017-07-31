@@ -1,0 +1,1 @@
+// optional model class, composition from collections, subscriptions, schema & optional attributes
