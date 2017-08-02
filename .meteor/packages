@@ -30,3 +30,5 @@ seba:minifiers-autoprefixer
 accounts-ui
 practicalmeteor:chai
 alanning:roles
+jquery
+coursierprive:tether
